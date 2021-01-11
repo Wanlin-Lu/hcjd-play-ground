@@ -30,22 +30,23 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 } */
 
 /* 布局 */
-/*.container {
+/* .container {
 	width: 100%;
 	height: 300px;
+	border: 1px solid green;
 }
 .insider {
 	width: 100px;
 	height: 100px;
 	background-color: red;
-}*/
+} */
 
-/*.pbox {
+/* .pbox {
 	text-align: center;
+	line-height: 300px; 
 }
-.tbox {
-	display: inline-block;
-}*/
+.tbox { display: inline-block; } */
+
 /*.pbox {
 	
 }
@@ -54,6 +55,7 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 	display: table;
 	margin: 0 auto;
 }*/
+
 /*.pbox {
 	position: relative;
 }
@@ -63,6 +65,7 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 	top: 50%;
 	transform: translate(-50%, -50%);
 }*/
+
 /*.pbox {
 	position: relative;
 }
@@ -74,20 +77,22 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 	left: 0;
 	margin: auto;
 }*/
+
 /*.pbox {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }*/
-/*.pbox {
+
+/* .pbox {
 	display: table-cell;
 	vertical-align: middle;
-	text-align: center;
 	width: 500px;
+	text-align: center;
 }
 .tbox {
 	display: inline-block;
-}*/
+} */
 
 /*.left {
 	float: left;
@@ -158,7 +163,7 @@ footer {clear: both;} */
 #right {width: 190px; margin-left: -190px;} */
 
 /* 色子 */
-.box { 
+/* .box { 
 	display: flex;
 	justify-content: space-around;
 	width: 500px;
@@ -176,4 +181,4 @@ footer {clear: both;} */
 }
 .item:nth-child(3) {
 	align-self: flex-end;
-}
+} */
