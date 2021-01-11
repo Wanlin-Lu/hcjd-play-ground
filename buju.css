@@ -129,7 +129,7 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 	padding-right: 20px;
 }*/
 
-/*@media screen and (max-width: 320px){
+/* @media screen and (max-width: 320px){
 	body {
 		background-color: green;
 	}
@@ -138,7 +138,7 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 	body {
 		background-color: red;
 	}
-}*/
+} */
 /* 圣杯布局 */
 /* #container { padding: 0 150px 0 200px; }
 #container .column { float: left;}
