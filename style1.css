@@ -1,22 +1,22 @@
 /*General*/
-.even {
+/* .even {
 	border: 1px solid red;
 	padding: 10px;
 }
 .odd {
 	border: 1px dashed green;
 	padding: 10px;
-}
+} */
 
 
-button {
+/* button {
 	display: block;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-}
+} */
 
-div {
+/* div {
 	width: 100px;
 	height: 100px;
 	background: #887634;
@@ -26,27 +26,28 @@ div {
 #d1 {
 	margin-bottom: 20px;
 	margin-right: 100px;
-}
+} */
 
-#sanjiao {
+/* #sanjiao {
 	width: 0;
 	height: 0;
 	border-width: 0 20px 20px 20px;
 	border-style: solid;
 	border-color: transparent transparent red;
-}
+} */
 
-#tranP {
+/* transition */
+/* #tranP {
 	position: relative;
 	height: 120px;
-}
+} */
 /*.clearfix:after {
 	content: '';
 	display: table;
 	clear: both;
 }*/
 /*这不是清除浮动的问题而是position absolute的问题*/
-#transition {
+/* #transition {
 	position: absolute;
 	left: 1px;
 	color: red;
@@ -55,10 +56,10 @@ div {
 #transition:hover {
 	left: 200px;
 	color: green;
-}
+} */
 
 /*animation*/
-#aniP {
+/* #aniP {
 	position: relative;
 	height: 120px;
 }
@@ -77,4 +78,4 @@ div {
 }
 #animation:hover {
 	animation-play-state: paused;
-}
+} */
