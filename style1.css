@@ -1,0 +1,80 @@
+/*General*/
+.even {
+	border: 1px solid red;
+	padding: 10px;
+}
+.odd {
+	border: 1px dashed green;
+	padding: 10px;
+}
+
+
+button {
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	background: #887634;
+	margin: 10px;
+	display: inline-block;
+}
+#d1 {
+	margin-bottom: 20px;
+	margin-right: 100px;
+}
+
+#sanjiao {
+	width: 0;
+	height: 0;
+	border-width: 0 20px 20px 20px;
+	border-style: solid;
+	border-color: transparent transparent red;
+}
+
+#tranP {
+	position: relative;
+	height: 120px;
+}
+/*.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}*/
+/*这不是清除浮动的问题而是position absolute的问题*/
+#transition {
+	position: absolute;
+	left: 1px;
+	color: red;
+	transition: left 2s ease 1s,color 2s ease-in;
+}
+#transition:hover {
+	left: 200px;
+	color: green;
+}
+
+/*animation*/
+#aniP {
+	position: relative;
+	height: 120px;
+}
+#animation {
+	position: absolute;
+	animation: ani2 4s ease 0s infinite alternate;
+}
+@keyframes ani1 {
+	from {left: 20px; background-color: #765432;}
+	to {left: 250px; top: 50px; background-color: #008934;}
+}
+@keyframes ani2 {
+	0% {left: 20px; top: 0px; background-color: #765432;}
+	50% {left: 250px; top: 50px; background-color: #008934;}
+	100% {left: 500px; top: 0px; background-color: 007600;}
+}
+#animation:hover {
+	animation-play-state: paused;
+}
