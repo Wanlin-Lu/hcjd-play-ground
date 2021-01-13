@@ -18,80 +18,26 @@ h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:normal;}
 del,ins,u,s,a,a:hover{text-decoration:none;}
 body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;color:#333;outline:0;}
 
-/* 字节跳动 flex布局 */
-#pbox {
+/* bfc 触发条件 */
+.container {
 	border: 1px solid green;
-	height: 90vh;
-
-	display: flex;
-
-	flex-direction: row-reverse;
-	flex-direction: column;
-	flex-direction: column-reverse;
-	flex-direction: row; /* 默认 */
-
-	flex-wrap: nowrap; /* 默认 */
-	flex-wrap: wrap-reverse;
-	flex-wrap: unset;
-	flex-wrap: wrap;
-
-	flex-flow: row wrap;
-
-	justify-content: space-between;
-	justify-content: center;
-	justify-content: flex-end;
-	justify-content: space-around;
-	justify-content: flex-start; /* 默认 */
-	
-	align-items: flex-start;
-	align-items:flex-end;
-	align-items:baseline;
-	align-items:center;
-	align-items:stretch; /* 默认 */
-
-	align-content: flex-start; /* 默认 */
-	align-content: flex-end;
-	align-content:space-between;
-	align-content:space-around;
-	align-content:center;
-	align-content:stretch;
 }
-.content {
-	/* width: 33.3333vw; */
-	/* height: 50px; */
-	/* background-color: pink; */ 
-	/* box-sizing: border-box; */
-	border: 0.001px solid green;
+.left {
+	float: left;
 }
+.bfc {
 
-.items {
-	border: 0.001px solid red;
-	padding: 20px;
-	box-sizing: border-box;
+	/* display: flex;
+	display: inline-block; */
 
-	flex: auto;
-	flex-basis: 10%;
-	flex-grow: 0;
-	flex-shrink: 0;
-}
-@media screen and (max-width:600px) {
-	.items {
-		flex-basis: 26vw;
-		flex-grow: 1;
-		flex-shrink: 1;
-		flex-basis: 21%;
+	/* position: absolute;
+	position: fixed; */
 
-		flex: auto;
-		flex: 1 1 26vw;
-		flex: 1 0 26vw;
-		flex: 1 1 26%;
-	}
-}
+	/* float: left;
+	float: right; */
 
-.items:nth-child(2) {
-	align-self: flex-start;
-	align-self: flex-end;
-	align-self: baseline;
-	align-self: stretch;
-	align-self: center;
+	overflow: hidden;
+	overflow: scroll;
+	overflow: auto;
+	/* overflow: visible; 除了这个不行，其他都可以 */
 }
