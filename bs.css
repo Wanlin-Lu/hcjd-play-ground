@@ -28,6 +28,13 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 	border: 1px solid red;
 }
 
+/* .pbox {
+	overflow: hidden;
+}
+.left,.right {
+	padding-bottom: 9999px;
+	margin-bottom: -9999px;
+} */
 /* .left {
 	width: 100px;
 	float: left;
@@ -45,21 +52,6 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 	overflow: hidden;
 } */
 
-/* .left {
-	width: 100px;
-	float: left;
-	position: relative;
-}
-.right-fix {
-	width: 100%;
-	margin-left: -104px;
-	float: right;
-	border: 1px solid green;
-}
-.right {
-	margin-left: 120px; */
-}
-
 /* .pbox {
 	display: table;
 	width: 100%;
@@ -74,8 +66,9 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 	padding-right: 20px;
 } */
 
-/* .pbox {
+.pbox {
 	display: flex;
+	align-items: stretch;
 }
 .left {
 	width: 100px;
@@ -83,7 +76,7 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 .right {
 	flex: 1;
 	margin-left: 10px;
-} */
+}
 
 
 
