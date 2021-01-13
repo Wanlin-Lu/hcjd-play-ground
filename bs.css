@@ -24,81 +24,72 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 	height: 50vh;
 	border: 1px solid green;
 }
-
-/* 行内元素 */
-/* 水平垂直 */
-/* #obox {
-	text-align: center;
+.column {
+	border: 1px solid red;
 }
-#ttext {
-	line-height: 50vh;
-} */
 
-/* #obox {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-} */
-
-/* block元素 */
-#tbox {
+/* .left {
 	width: 100px;
-	height: 100px;
-	border: 1px solid pink;
+	float: left;
 }
-
-/* 水平 */
-/* #tbox {
-	margin: auto;
+.right {
+	margin-left: 110px;
 } */
 
-/* #pbox {
-	text-align: center;
+/* .left {
+	width: 100px;
+	float: left;
+	margin-right: 10px;
 }
-#tbox {
-	display: inline-block;
+.right {
+	overflow: hidden;
 } */
 
-/* 垂直 */
-/* #pbox { display: table-cell; vertical-align: middle; } */
-
-/* 水平垂直 */
-/* #pbox {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-}
-#tbox {
-	display: inline-block;
-} */
-
-/* #pbox {
+/* .left {
+	width: 100px;
+	float: left;
 	position: relative;
 }
-#tbox {
-	position: absolute;
- */
-	/* top:0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto; */
+.right-fix {
+	width: 100%;
+	margin-left: -104px;
+	float: right;
+	border: 1px solid green;
+}
+.right {
+	margin-left: 120px; */
+}
 
-	/* top: 50%;
-	left: 50%;
-	margin-left: -50px;
-	margin-top: -50px; */
-
-	/* top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%); */
-/* } */
-
-/* #pbox  {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+/* .pbox {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+.left,.right{
+	display: table-cell;
+	background-color: pink;
+}
+.left {
+	width: 100px;
+	padding-right: 20px;
 } */
+
+/* .pbox {
+	display: flex;
+}
+.left {
+	width: 100px;
+}
+.right {
+	flex: 1;
+	margin-left: 10px;
+} */
+
+
+
+
+
+
 
 
 
