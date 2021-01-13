@@ -18,33 +18,23 @@ h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:normal;}
 del,ins,u,s,a,a:hover{text-decoration:none;}
 body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;color:#333;outline:0;}
 
-/* 居中布局 */
-.column p {background: red;}
-
-
-/* .pbox { margin-left: -20px;}
-.column { 
-	width: 25%; 
-	padding-left: 20px; 
-	float: left; 
-	box-sizing: 
-	border-box;
-} */
-
-/* .pbox-fix { margin-left: -20px;} */
-.pbox {
-	display: table;
-	width: 100%;
-	table-layout: fixed;
+/* 圣杯布局 */
+#container {margin: 0 150px 0 200px;}
+.column { float: left;}
+#center { width: 100%;}
+#left {
+	width: 200px;
+	position: relative;
+	right: 200px;
+	margin-left: -100%; /*大于-200px */
 }
-.column{ display: table-cell;}
-.column+.column{ padding-left: 20px; }
-
-/* .pbox {
-	display: flex;
+#right {
+	width: 150px;
+	margin-right: -150px;
 }
-.column { flex-grow: 1;}
-.column+.column{margin-left: 20px;} */
+#footer {clear: both;}
+
+
 
 
 
